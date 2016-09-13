@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   configure(api);
-  api.export(['BlazeLayout']);
+  api.export(['FineBlazeLayout']);
 });
 
 Package.onTest(function(api) {
